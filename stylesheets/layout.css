@@ -63,3 +63,20 @@
     font-style: italic;
     font-weight: 400;
 }
+
+
+/*  ============================ SERVICES SECTION ============================ */
+
+#services .service img {
+    width: 64px;
+    height: 64px;
+    background-color: sandybrown;
+    align-items: center;
+    padding: 0.6em;
+}
+
+.red {
+    width: 45px;
+    height: 45px;
+    background-color: red;
+}

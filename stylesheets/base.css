@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+section {
+    margin: 4em auto;
+}
+
 .section-title {
     text-align: center;
 }
@@ -22,6 +26,12 @@ body {
 .sm-title-divider {
     background-color: gold;
     margin: 0 0.5em 1em;
+}
+
+.section-divider {
+    height: 4px;
+    border: -1px solid black;
+    background-color: slategrey;
 }
 
 .md-title-divider hr {
