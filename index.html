@@ -2,231 +2,217 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="./stylesheets/base.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-  <!-- Fonts -->
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!-- Script -->
-  <script src="./javascript/index.js"></script>
-  <!-- Required Core Stylesheet -->
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-  <!-- Optional Theme Stylesheet -->
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/layout.css">
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Script -->
+    <script src="./javascript/index.js"></script>
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- Optional Theme Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 
+
 <body>
-  <!-- ------------------NAVIGATION ------------------ -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- ------------------NAVIGATION ------------------ -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown link
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item active" href="#">About <span class="sr-only">(current)</span></a>
-              <a class="dropdown-item" href="hero">History</a>
-              <a class="dropdown-item" href="history">Services</a>
-              <a class="dropdown-item" href="services">Projects</a>
-              <a class="dropdown-item" href="projects">Additional Info</a>
-              <a class="dropdown-item" href="extras">Contact Me</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item active" href="#">About <span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="hero">History</a>
+                            <a class="dropdown-item" href="history">Services</a>
+                            <a class="dropdown-item" href="services">Projects</a>
+                            <a class="dropdown-item" href="projects">Additional Info</a>
+                            <a class="dropdown-item" href="extras">Contact Me</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+        </nav>
+    </header>
 
-  <main>
-    <!-- ==================================== HERO ========================================== -->
-    <section id="hero">
-      <!------------ Img (SVG) / Summary / Call to Action ----->
+    <main>
+        <!-- ==================================== HERO ========================================== -->
+        <section id="hero">
+            <!------------ Img (SVG) / Summary / Call to Action ----->
 
-      <!-- Image -->
-      <div class="d-flex flex-wra">
-        <figure class="hero-image">
-          <img src="./assets/images/HeroPortrait.bmp" alt="" class="img-fluid w-50">
-          <caption class="d-inline-block">Hey, I'm Jamal</caption>
-        </figure>
-        <!-- Details -->
-        <div class="hero-image-detail">
-          <strong>What do I do?</strong>
-          <hr class="title-divider">
-          <p>I build web apps for clients inclusive of cross-platform develoment to handle mobile needs. I also
-            provide data analysis for research projects</p>
-          </div>
-          <div class="hero-image-detail">
-            <strong>What can I offer?</strong>
-            <hr class="title-divider">
-            <p>Incremental value through a people-centered approach. I focus on building better relationships through free
-              support and consultation on common areas of growth</p>
+            <!-- Image -->
+            <div class="hero-image">
+                <div class="hero-image-caption">Hey, I'm Jamal</div>
+                <img src="./assets/images/illustrations/man-trending.png" alt="" class="">
             </div>
-      <div class="hero-image-detail">
-        <strong>What's my main tech stack like?</strong>
-        <hr class="title-divider">
-        <ul>
-          <li>Front-end: React.Js</li>
-          <li>Back-end: Laravel/Node.Js</li>
-          <li>Cross-platform: React Native</li>
-          <li>Database: MySQL/ Mongo DB</li>
+            <!-- Details -->
+            <div class="hero-detail">
+                <strong>What do I do?</strong>
+                <hr class="sm-title-divider"> I build web apps for clients inclusive of cross-platform develoment to handle mobile needs. I also provide data analysis for research projects
+            </div>
+            <div class="hero-detail">
+                <strong>What can I offer?</strong>
+                <hr class="sm-title-divider"> Incremental value through a people-centered approach. I focus on building better relationships through free support and consultation on common areas of growth
+            </div>
+            <div class="hero-detail">
+                <strong>What's my main tech stack like?</strong>
+                <hr class="sm-title-divider">
+                <ul>
+                    <li>Front-end: React.Js</li>
+                    <li>Back-end: Laravel/Node.Js</li>
+                    <li>Cross-platform: React Native</li>
+                    <li>Database: MySQL/ Mongo DB</li>
+            </div>
+            </div>
+            <!-- Call to Action -->
+            <div class="call-to-action">
+                <button class="button primary-btn career">Career Profile</button>
+                <button class="button secondary-btn cv">Download CV</button>
+            </div>
+        </section>
+        <!--=======================================H ISTORY=====================================-->
+        <section id="history">
+            <!-- Vertical divider for mobile -->
+            <div class="section-title">
+                <h2>About Me</h2>
+                <hr class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row history-phase align-items-center">
+                    <div class="col-6">
+                        <p></p><span class="history-year">2019</span>As a young thinker I have always had a passion for buidling things that matter. I majored in Computer Science at Strathmore University that opened me up to the future in tech
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="history-year">2021</span>My 2nd hackathon to attend and first to win - the Oracle APEX hackathon. Became a GitHb Education Student Member</p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="history-year">2022</span>As a young thinker I have always had a passion for buidling things that matter. I majored in Computer Science at Strathmore University that opened me up to the future in tech
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="history-year">2023</span>My 2nd hackathon to attend and first to win - the Oracle APEX hackathon. Became a GitHb Education Student Member</p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="history-year">2024</span>As a young thinker I have always had a passion for buidling things that matter. I majored in Computer Science at Strathmore University that opened me up to the future in tech
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="history-year">2024
+                        </span>My 2nd hackathon to attend and first to win - the Oracle APEX hackathon. Became a GitHb Education Student Member</p>
+                    </div>
+                </div>
+        </section>
+        <!-- ======================================= SERVICES ==================================-->
+        <section id="services">
+            <div class="section-title">
+                <h2>Services Offered</h2>
+                <hr class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-3 col-4">
+                        <figure class="figure service">
+                            <img src="..." class="figure-img img-fluid rounded" alt="1">
+                            <figcaption class="figure-caption">Data Analysis</figcaption>
+                        </figure>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="2">
+                                <figcaption class="figure-caption">Scientific Computing (Python)</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="3">
+                                <figcaption class="figure-caption">Web development</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="4">
+                                <figcaption class="figure-caption">UI/ UX Design</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="5">
+                                <figcaption class="figure-caption">Circuit Design</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="6">
+                                <figcaption class="figure-caption">Documentation</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="7">
+                                <figcaption class="figure-caption">Proposal Writing</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-2 col-sm-3 col-4">
+                            <figure class="figure service">
+                                <img src="..." class="figure-img img-fluid rounded" alt="8">
+                                <figcaption class="figure-caption">Blockchain Development</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- ========================================= PROJECTS ==================================-->
+        <section id="projects"></section>
+        <div class="section-title">
+            <h2>Past Projects</h2>
+            <hr class="section-divider">
         </div>
-      </div>
-        <!-- Call to Action -->
-        <div class="call-to-action">
-          <button class="button primary-btn career">Career Profile</button>
-          <button class="button secondary-btn cv">Download CV</button>
-        </div>
-      </section>
-      <!-- ======================================= HISTORY =====================================-->
-    <section id="history">
-      <!-- Vertical divider for mobile -->
-      <div class="section-title">
-        <h2>About Me</h2>
-      </div>
-      <div class="container">
-        <div class="row history-phase">
-          <div class="col-6-md">
-            <p><span class="history-year">2019</span>As a young thinker I have always had a passion for buidling things
-              that matter. I majored in Computer Science at Strathmore University that opened me up to the future in
-              tech</p>
-          </div>
-          <div class="col-6-md">
-            <p><span class="history-year">2021</span>My 2nd hackathon to attend and first to win - the Oracle APEX
-              hackathon. Became a GitHb Education Student Member</p>
-          </div>
-        </div>
-        <div class="row history-phase">
-          <div class="col-6-md">
-            <p><span class="history-year">2019</span>As a young thinker I have always had a passion for buidling things
-              that matter. I majored in Computer Science at Strathmore University that opened me up to the future in
-              tech</p>
-          </div>
-          <div class="col-6-md">
-            <p><span class="history-year">2021</span>My 2nd hackathon to attend and first to win - the Oracle APEX
-              hackathon. Became a GitHb Education Student Member</p>
-          </div>
-        </div>
-        <div class="row history-phase">
-          <div class="col-6-md">
-            <p><span class="history-year">2019</span>As a young thinker I have always had a passion for buidling things
-              that matter. I majored in Computer Science at Strathmore University that opened me up to the future in
-              tech</p>
-          </div>
-          <div class="col-6-md">
-            <p><span class="history-year">2021</span>My 2nd hackathon to attend and first to win - the Oracle APEX
-              hackathon. Became a GitHb Education Student Member</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="section-divider">
-    <!-- ======================================= SERVICES ==================================-->
-    <section id="services">
-      <div class="section-title">
-        <h2>Services Offered</h2>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-2 col-sm-3 col-4">
-            <figure class="figure service">
-              <img src="..." class="figure-img img-fluid rounded" alt="1">
-              <figcaption class="figure-caption">Data Analysis</figcaption>
-            </figure>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="2">
-                <figcaption class="figure-caption">Scientific Computing (Python)</figcaption>
-              </figure>
+        <!-- @Glide Carousel -->
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">0</li>
+                    <li class="glide__slide">1</li>
+                    <li class="glide__slide">2</li>
+                </ul>
             </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="3">
-                <figcaption class="figure-caption">Web development</figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="4">
-                <figcaption class="figure-caption">UI/ UX Design</figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="5">
-                <figcaption class="figure-caption">Circuit Design</figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="6">
-                <figcaption class="figure-caption">Documentation</figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="7">
-                <figcaption class="figure-caption">Proposal Writing</figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-2 col-sm-3 col-4">
-              <figure class="figure service">
-                <img src="..." class="figure-img img-fluid rounded" alt="8">
-                <figcaption class="figure-caption">Blockchain Development</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-    </section>
-    <!-- ========================================= PROJECTS ==================================-->
-    <section id="projects"></section>
-    <div class="section-title">
-      <h2>Past Projects</h2>
-    </div>
-    <!-- @Glide Carousel -->
-    <div class="glide">
-      <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides">
-          <li class="glide__slide">0</li>
-          <li class="glide__slide">1</li>
-          <li class="glide__slide">2</li>
-        </ul>
-      </div>
 
-      <div class="glide__bullets" data-glide-el="controls[nav]">
-        <button class="glide__bullet" data-glide-dir="=0"></button>
-        <button class="glide__bullet" data-glide-dir="=1"></button>
-        <button class="glide__bullet" data-glide-dir="=2"></button>
-      </div>
-    </div>
-    <div data-glide-el="controls">
-      <button data-glide-dir="<">Start</button>
-      <button data-glide-dir=">">End</button>
-    </div>
-    
-    <!-- ADDITIONAL -->
-    <!-- prospects -->
-    <section id="extras"></section>
-  </main>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+        </div>
+        <div data-glide-el="controls">
+            <button data-glide-dir="<">Start</button>
+            <button data-glide-dir=">">End</button>
+        </div>
 
-  <footer class="footer"></footer>
+        <!-- ADDITIONAL -->
+        <!-- prospects -->
+        <section id="extras"></section>
+    </main>
+
+    <footer class="footer"></footer>
 </body>
 
 </html>

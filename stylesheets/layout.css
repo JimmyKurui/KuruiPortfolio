@@ -1,0 +1,65 @@
+@import url(base.css);
+
+/* =========================== HERO SECTION =========================*/
+
+#hero .hero-image {
+    text-align: center;
+}
+
+#hero .hero-image img {
+    max-width: 40vw;
+}
+
+#hero .hero-image-caption {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#hero .hero-detail {
+    background-color: beige;
+    border: 2px double black;
+    color: black;
+    width: 10em;
+    height: auto;
+    display: inline-block;
+}
+
+#hero .hero-detail strong {
+    text-align: center;
+}
+
+
+/* =============================== HISTORY SECTION ============================= */
+
+#history .history-phase .col-6:nth-child(odd) {
+    border-right: 2px solid white;
+}
+
+#history .history-phase .col-6:nth-child(4n+1) {
+    border-bottom: 1px solid white;
+}
+
+#history .history-phase .col-6:nth-child(4n) {
+    border-bottom: 1px solid white;
+}
+
+
+/* #history .row>.col-6:nth-child(odd) {
+    border-bottom: 1px solid white;
+} */
+
+
+/* #history .row.col-6:nth-child(odd) {
+    border-bottom: 1px solid white;
+} */
+
+
+/* #history .branch {
+    border-bottom: 1px solid white;
+} */
+
+#history span {
+    padding: 0 2em;
+    font-style: italic;
+    font-weight: 400;
+}

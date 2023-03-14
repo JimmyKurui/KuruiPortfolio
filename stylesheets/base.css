@@ -1,2 +1,30 @@
-@import url(_variables.css);
+:root {
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --theme-color-1: #170541;
+    --theme-color-2: #7209b7;
+    --primary-color: #2ec4b6;
+    --secondary-color: #f8f9fa;
+}
 
+body {
+    font-family: "Nunito", Tahoma;
+    background-color: var(--theme-color-1);
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.sm-title-divider {
+    background-color: gold;
+    margin: 0 0.5em 1em;
+}
+
+.md-title-divider hr {
+    border-inline: 2px solid;
+    height: 4px;
+}
