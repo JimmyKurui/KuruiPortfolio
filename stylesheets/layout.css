@@ -2,81 +2,135 @@
 
 /* =========================== HERO SECTION =========================*/
 
+#hero {
+    text-align: center;
+    /* height: 90vh; */
+}
+
 #hero .hero-image {
     text-align: center;
+    display: inline-block;
+    position: relative;
 }
 
 #hero .hero-image img {
-    max-width: 40vw;
+    max-height: 70%;
+    justify-self: center;
 }
 
 #hero .hero-image-caption {
     font-weight: 700;
+    letter-spacing: 6px;
+    line-height: 3em;
     text-transform: uppercase;
 }
 
 #hero .hero-detail {
     background-color: beige;
-    border: 2px double black;
-    color: black;
-    width: 10em;
-    height: auto;
+    border: 3px double black;
+    /* max-width: 0%; */
+    min-width: 50%;
+    max-height: 80%;
+    color: rgba(0, 0, 0, .8);
+    font-size: 0.7em;
     display: inline-block;
+    position: absolute;
+    transform: all ease-in;
+}
+
+#hero .detail-title {
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+}
+
+#hero .detail-1 {
+    bottom: 50%;
+    right: 70%;
+}
+
+#hero .detail-2 {
+    top: 50%;
+    left: 80%;
+}
+
+#hero .detail-3 {
+    /* top: 80%; */
+    bottom: 0;
+    right: 80%;
+    /* transform: translateX(-50%); */
 }
 
 #hero .hero-detail strong {
     text-align: center;
 }
 
+#hero .call-to-action a {
+    color: black;
+}
+
 
 /* =============================== HISTORY SECTION ============================= */
 
 #history .history-phase .col-6:nth-child(odd) {
-    border-right: 2px solid white;
+    border-right: 2px solid sandybrown;
+    border-spacing: 3px;
 }
 
 #history .history-phase .col-6:nth-child(4n+1) {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid sandybrown;
 }
 
 #history .history-phase .col-6:nth-child(4n) {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid sandybrown;
 }
 
-
-/* #history .row>.col-6:nth-child(odd) {
-    border-bottom: 1px solid white;
-} */
-
-
-/* #history .row.col-6:nth-child(odd) {
-    border-bottom: 1px solid white;
-} */
-
-
-/* #history .branch {
-    border-bottom: 1px solid white;
-} */
-
-#history span {
-    padding: 0 2em;
-    font-style: italic;
-    font-weight: 400;
+#history .history-year {
+    margin: 0 20px;
 }
 
 
 /*  ============================ SERVICES SECTION ============================ */
+
+#services .services-frame {
+    width: 70vw;
+    text-align: center;
+    margin: 1em auto;
+}
 
 #services .service img {
     width: 64px;
     height: 64px;
     background-color: sandybrown;
     align-items: center;
-    padding: 0.6em;
+    padding: 0.8em;
 }
 
-.red {
+#services .service figcaption {
+    color: inherit;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+
+
+/* ===================================== PROJECTS ================================== */
+
+
+/* #projects .glide__slide {
+    height: 100px;
+    width: 100%;
+    background-color: ivory;
+} */
+
+.glide__slide img {
+    width: 100%;
+}
+
+
+/* .red {
     width: 45px;
     height: 45px;
     background-color: red;
-}
+} */
