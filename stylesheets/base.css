@@ -15,7 +15,7 @@ body {
     color: white;
 }
 
-body>* {
+body > * {
     text-align: center;
 }
 
@@ -73,15 +73,25 @@ section {
     border-radius: 100px;
 }
 
-div.loading::before {
+/* Loader */
+div.loading {
+    margin: 2em auto;
+    font-style: oblique;
+}
+div.spinner {
+    display: inline-block;
+    width: 70px;
+    height: 70px; 
+    transform: translateY(40%);
+    background-color: var(--secondary-color);
+    clip-path: circle();
+    margin: 0 0.6em;
+}
+div.spinner::before {
     content: "";
     display: block;
-    padding: 10px;
-    margin: 1em;
     width: 70px;
     height: 70px;
-    /* aspect-ratio: 1; */
-    /* border-radius: 100px; */
     background-color: var(--theme-color-2);
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 100% 100%);
     transform-origin: 50% 50%;
@@ -90,20 +100,7 @@ div.loading::before {
     animation: rotateBox 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }
 
-
-/* .loading::after {
-    content: "Under Development🏍...";
-    margin: 0 20px;
-    /* padding: 20px 0; */
-
-
-/* animation: none;
-    display: block;
-}  */
-
-
 /* ---- ELEMENTS ---- */
-
 nav {
     margin: auto 1em;
 }
