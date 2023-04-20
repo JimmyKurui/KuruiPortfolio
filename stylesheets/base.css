@@ -75,17 +75,24 @@ section {
 
 /* Loader */
 div.loading {
-    margin: 2em auto;
+    margin: 1em auto;
     font-style: oblique;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+div.loading span {
+    transform: translateY(-50-5%);
+} 
 div.spinner {
     display: inline-block;
     width: 70px;
     height: 70px; 
-    transform: translateY(40%);
     background-color: var(--secondary-color);
     clip-path: circle();
-    margin: 0 0.6em;
+    margin: 0 0.8em;
 }
 div.spinner::before {
     content: "";
@@ -109,6 +116,15 @@ main {
     margin: 0 auto;
 }
 
+footer {
+    background-color: lightslategrey;
+    max-height: 20vh;
+    display: flex;
+    padding: 1em 1em;
+    justify-content: space-between;
+    color: black;
+}
+footer a { color: black}
 
 /* ---- ANIMATION ---- */
 
