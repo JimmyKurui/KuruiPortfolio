@@ -14,8 +14,8 @@
 }
 
 #hero .hero-image img {
-    max-height: 70%;
-    justify-self: center;
+    max-height: 90vh;
+    margin: -6em;
     clip-path: polygon(87% 45%, 80% 24%, 76% 20%, 66% 14%, 55% 15%, 46% 19%, 33% 18%, 23% 23%, 19% 31%, 17% 48%, 14% 65%, 21% 89%, 24% 86%, 42% 90%, 71% 90%, 81% 82%);
 }
 
@@ -139,8 +139,13 @@
 
 /* ===================================== FOOTER ================================== */
 
+.social-links {
+    align-self: flex-end;
+    justify-self: center;
+}
+
 .social-links a {
-    margin: auto 1em;
+    margin: 1em 0.3em;
     color: rgba(0, 0, 0, .7);
 }
 
