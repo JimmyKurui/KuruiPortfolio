@@ -1,7 +1,11 @@
 // Default theme
 
 // Nav
-
+window.onload = (event) => {
+    setTimeout(() => {
+        alert("This is a beta site version. Check it out on desktop for the best experience!")
+    }, 200)
+};
 const navbar = document.querySelector('.navbar');
 
 function toggleClass(element, className) {

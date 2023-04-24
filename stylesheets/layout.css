@@ -1,4 +1,4 @@
-@import url(base.css);
+@import url(./base.css);
 
 /* =========================== HERO SECTION =========================*/
 
@@ -74,7 +74,20 @@
 
 /* =============================== HISTORY SECTION ============================= */
 
-#history .history-phase .col-6:nth-child(odd) {
+#history .about-image {
+    background-color: var(--secondary-color);
+    width: auto;
+    height: 300px;
+}
+
+#history .about-image img {
+    /* margin: 1em; */
+    max-height: 300px;
+    width: auto;
+    background-color: teal;
+}
+
+#history #history .history-phase .col-6:nth-child(odd) {
     border-right: 2px solid sandybrown;
     border-spacing: 3px;
 }

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./stylesheets/layout.css">
     <link rel="stylesheet" href="node_modules\@splidejs\splide\dist\css\splide.min.css">
     <!-- Fonts -->
@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules\@splidejs\splide\dist\js\splide.js"></script>
 </head>
 
@@ -86,14 +88,19 @@
             <div class="section-title">
                 <h2>About Me</h2>
                 <hr class="section-divider">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate cum maiores, natus sequi placeat reprehenderit quis ratione rem velit quia incidunt voluptatibus ducimus dolorum fuga molestiae repellendus! Porro, blanditiis sunt?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 order-2">I'm an enthusiast in areas where tech blends with business. This is through sustainable value addition to processes and smart solutions to development challenges affecting society. Currently, I aspire to grow in a fintech career and also get involved in causes targeting the UN 16 SDG goals</div>
+                <div class="col-md-6  order-md-2 ">
+                    <div class="about-image"><img src="./assets/images/illustrations/work_portfolio.png" alt="Work Illustration"  class='img-fluid'/></div>
+                </div>
             </div>
             <div class="container">
                 <div class="row history-phase align-items-center">
-                    <!-- <div class="col-6">
+                    <div class="col-6">
                         <p><span class="history-year">2019</span>Joined Strathmore University to study Computer Science.
                         </p>
-                    </div> -->
+                    </div>
                     <div class="col-6">
                         <p><span class="history-year">2021</span>Intern - TAU<span>Winner (Team Equators) - Oracle
                                 Academy APEX Hackathon <span>MediCare Project.</span>< span>Student Member - GitHub Education, Major League Hacking
@@ -192,22 +199,22 @@
                 <hr class="section-divider">
             </div>
             <!-- Splide Carousel -->
+            <div id="main-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                              <img src="image01.jpg" alt="">
+                          </li>
+                          <li class="splide__slide">
+                              <img src="image02.jpg" alt="">
+                          </li>
+                          <li class="splide__slide">
+                              <img src="image03.jpg" alt="">
+                          </li>
+                      </ul>
+                </div>
+            </div>
             <div id="thumbnail-carousel" class="splide" role="group" aria-label="Thumbnails of work">
-                <!-- <div id="main-carousel" class="splide" aria-label="Beautiful Images">
-                    <div class="splide__track">
-                          <ul class="splide__list">
-                              <li class="splide__slide">
-                                  <img src="image01.jpg" alt="">
-                              </li>
-                              <li class="splide__slide">
-                                  <img src="image02.jpg" alt="">
-                              </li>
-                              <li class="splide__slide">
-                                  <img src="image03.jpg" alt="">
-                              </li>
-                          </ul>
-                    </div>
-                  </div> -->
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide"><img src="./assets/images/thumbnails/" alt="1"></li>
@@ -232,7 +239,7 @@
     </main>
 
     <footer class="footer">
-        <div class="social-links">
+        <div class="social-links flex-no-wrap">
             <span><a href="https://twitter.com/MkrJmm1" target="_blank" rel="noopener noreferrer" title="Twitter">
                     <i class="fab fa-twitter fa-lg"></i>
                     <!-- <span class="fa-stack fa-lg">
