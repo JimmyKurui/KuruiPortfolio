@@ -10,10 +10,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Build Site
-        run: npm run build
+        run:
+          - npm install
+          - npm run build
       - name: Deploy Site
         uses: JimmyKurui/KuruiPortfolio/github-pages-deploy-action@releases/v4
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist 
