@@ -5,6 +5,7 @@
     padding: 0;
     --theme-color-1: #170541;
     --theme-color-2: #7209b7;
+    --theme-color-3: rgb(174, 180, 189);
     --primary-color: #2ec4b6;
     --secondary-color: #f8f9fa;
 }
@@ -142,12 +143,15 @@ footer {
     max-height: 20vh;
     display: flex;
     padding: 1em 1em;
-    justify-content: space-between;
     color: black;
 }
 
 footer a {
     color: black
+}
+
+footer kbd {
+    margin: 0.5em 0 -2em;
 }
 
 

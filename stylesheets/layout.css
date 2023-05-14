@@ -74,22 +74,47 @@
 
 /* =============================== HISTORY SECTION ============================= */
 
+#history .about-me {
+    background-color: var(--theme-color-3);
+    margin: 0 2em;
+    border-radius: 10px;
+    box-shadow: 15px 30px 10px rgba(0, 0, 0, .2) ;
+}
+#history .about-text {
+    padding: 0.5rem 4rem;
+    margin: 0;
+    text-align: justify;
+    line-height: 30px;
+    /* font-size: 20px; */
+}
+
 #history .about-image {
+    padding: 0.5rem 0;
     background-color: var(--secondary-color);
-    width: auto;
-    height: 300px;
+    text-align: center;
+    clip-path: inset(0% 50px);
 }
 
 #history .about-image img {
-    /* margin: 1em; */
-    max-height: 300px;
+    max-height: 111px;
     width: auto;
     background-color: teal;
 }
 
-#history #history .history-phase .col-6:nth-child(odd) {
+#history .history-phase .col-6 { 
+    display: flex;
+    align-items: center;
+}
+
+#history .history-phase .col-6:nth-child(odd) {
     border-right: 2px solid sandybrown;
     border-spacing: 3px;
+}
+#history .history-phase .col-6:nth-child(odd)::before, #history .history-phase.col-6:nth-child(odd)::after {
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-right: 2px solid sandybrown;
 }
 
 #history .history-phase .col-6:nth-child(4n+1) {
@@ -131,21 +156,38 @@
 
 /* ===================================== PROJECTS ================================== */
 
-.splide__slide {
-    /* height: 40vh;
-    width: 50%; */
-    background-color: aquamarine;
-    /* margin: 2em; */
-    opacity: 0.6;
+#projects .projects-tile {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 1em 7em;
+    background-color: rgba(40, 40, 40, .7);
 }
 
-.splide__slide.is-active {
-    opacity: 1;
+.main-carousel-wrapper {
+    margin-bottom: 2em;
+}
+
+#main-carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#main-carousel .splide__slide {
+    height: 200px;
+}
+
+.splide__slide .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 0.7rem;
 }
 
 .splide__slide img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -154,7 +196,7 @@
 
 .social-links {
     align-self: flex-end;
-    justify-self: center;
+    text-align: center;
 }
 
 .social-links a {
@@ -164,4 +206,8 @@
 
 i.fab {
     padding: 10px;
+}
+
+div.footnote {
+    margin: 0.5em 0 -0.5em;
 }
