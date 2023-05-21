@@ -9,10 +9,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
       - name: Build Site
-        run:
-          - npm install
-          - npm run build
+        run: npm run build
+        
       - name: Deploy Site
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
