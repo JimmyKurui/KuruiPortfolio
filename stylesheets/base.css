@@ -16,13 +16,7 @@ body {
     color: white;
 }
 
-
-/* body>* {
-    text-align: center;
-} */
-
-
-/* ---- MODULES ---- */
+/* ========================================== MODULES ============================================ */
 
 .section-title {
     text-align: center;
@@ -72,6 +66,9 @@ body {
 .navbar .nav-item .nav-link {
     text-transform: capitalize;
 }
+a.nav-link:hover {
+    color: var(--primary-color) !important; 
+}
 
 .navbar-scroll {
     background-image: linear-gradient(117deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 238, 0.6) 85%, rgba(239, 0, 255, 1) 100%);
@@ -79,13 +76,14 @@ body {
     transform: all background-image 3s ease;
 }
 
-.navbar-scroll a {
+.navbar-scroll a, .navbar-scroll a:hover {
     color: black !important;
 }
-
+.navbar-scroll a:hover {
+    background-color: #f8f9fa66 !important;  /* theme color 3 */
+}
 
 /* Loader */
-
 div.loading {
     margin: 1em auto;
     align-items: center;
@@ -124,7 +122,7 @@ div.spinner::before {
 }
 
 
-/* ---- ELEMENTS ---- */
+/* ================================================= ELEMENTS ============================================ */
 
 nav {
     padding: 4em 0;
