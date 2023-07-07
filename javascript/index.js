@@ -2,12 +2,14 @@
 
 // ---- HEADER ----
 window.onload = (event) => {
+    
     setTimeout(() => {
         alert("This is a beta site version. Check it out on desktop for the best experience!")
     }, 200)
 };
 
 // ---- Nav ----
+
 const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
 
