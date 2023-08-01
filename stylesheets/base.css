@@ -5,7 +5,8 @@
     padding: 0;
     --theme-color-1: #170541;
     --theme-color-2: #7209b7;
-    --theme-color-3: rgb(174, 180, 189);
+    --theme-color-3: #aeb4bd;
+    --theme-color-5: sandybrown;
     --primary-color: #2ec4b6;
     --secondary-color: #f8f9fa;
 }
@@ -84,7 +85,7 @@ a.nav-link:hover {
 
 /* Loader */
 div.loading {
-    margin: 1em auto;
+    margin: 5rem auto;
     align-items: center;
     display: flex;
     align-content: center;

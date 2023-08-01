@@ -80,15 +80,14 @@
 #history .about-me {
     background-color: var(--theme-color-3);
     margin: 0 15%;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 30px 30px 10px rgba(0, 0, 0, .3) ;
 }
 #history .about-text {
-    padding: 0.5rem 4rem;
+    padding: 1rem 0 1rem 3rem;
     margin: 0;
     text-align: justify;
-    line-height: 30px;
+    line-height: 28px;
     /* font-size: 20px; */
 }
 
@@ -100,9 +99,7 @@
 }
 
 #history .about-image img {
-    max-height: 30%;
-    width: auto;
-    background-color: teal;
+    background-color: var(--primary-color);
 }
 
 #history .history-phase .col-6 { 
@@ -131,6 +128,13 @@
 
 #history .history-year {
     margin: 0 20px;
+    font-size: 60px;
+    font-weight: 800;
+    color: var(--theme-color-5);
+}
+
+#history .col-6 p *, span[class~="history-year"] {
+    display: inline-block;
 }
 
 
@@ -212,7 +216,6 @@
     font-size: 1rem;
   }
 
-
 /* ===================================== FOOTER ================================== */
 
 .social-links {
@@ -237,5 +240,9 @@ div.footnote {
 @media (min-width: 600px) {
     #main-carousel {
         width: 60%;
+    }
+    #thumbnail-carousel {
+        width:80%;
+        margin: 0 auto;
     }
 }

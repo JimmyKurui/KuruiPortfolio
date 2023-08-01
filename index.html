@@ -30,42 +30,38 @@
 
 
 <body>
-    <!-- ------------------ NAVIGATION ------------------ -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="navbar-brand" href="#hero">CJ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#history">about <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#extras">extras</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>
-            </ul>
-            <!-- <span class="navbar-text">Navbar text with an inline element</span> -->
-        </div>
-    </nav>
-
-
-    <main>
-        <!-- ==================================== HERO ========================================== -->
+    <!-- ==================================== HERO ========================================== -->
+    <header>
+        <!-- ------------------ NAVIGATION ------------------ -->
         <section id="hero">
             <!------------ Img (SVG) / Summary / Call to Action ----->
-
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+                <a class="navbar-brand" href="#hero">CJ</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#history">about <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#extras">extras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <!-- <span class="navbar-text">Navbar text with an inline element</span> -->
+                </div>
+            </nav>
             <!-- Image -->
             <div class="hero-image">
                 <h1 class="hero-image-caption">Hey, I'm Jimmy Chepkurui</h1>
@@ -73,19 +69,21 @@
                 <!-- Details -->
                 <div class="hero-detail detail-1">
                     <div class="detail-title">What do I do?</div>
-                    <hr class="sm-title-divider"> I build responsive web apps for clients flexible across many browser
-                    platforms and devices inclusive of Web 3 capabilities
+                    <hr class="sm-title-divider"> I'm a full-stack web developer who seeks to build responsive, clean
+                    and maintainable applications using sound engineering principles. I also have other experiences in
+                    data analysis, ERP (Odoo) and CRM (Salesforce)
                 </div>
                 <div class="hero-detail detail-2">
                     <div class="detail-title">What can I offer?</div>
-                    <hr class="sm-title-divider">Value addition through a people-centered approach to make clients'
-                    needs and goals a reality
+                    <hr class="sm-title-divider">My values are deeply rooted in a user-first approach, creativity and
+                    attention to detail. I am adaptable to changing needs to keep quality consistent
                 </div>
                 <div class="hero-detail detail-3">
-                    <div class="detail-title">My main area of work</div>
+                    <div class="detail-title">My teck stack?</div>
                     <hr class="sm-title-divider">
-                    <p>I'm a junior data analyst currently using Python and Excel to gain insights around resource
-                        management</p>
+                    <p>Web development: Laravel, Bootstrap, Solidity</p>
+                    <p>UI/ UX: Figma, Canva</p>
+                    <p>Data analysis: Python, Excel</p>
                 </div>
             </div>
             <!-- Call to Action -->
@@ -95,294 +93,333 @@
                 <a href="assets/docs/CV_JimmyChepkurui23.pdf" class="btn secondary-btn cv">Download CV</a href>
             </div>
         </section>
-        <!--======================================= HISTORY=====================================-->
-        <section id="history">
-            <!-- Vertical divider for mobile -->
-            <div class="section-title">
-                <h2>About Me</h2>
-                <hr class="section-divider">
-            </div>
-            <div class="row about-me">
-                <div class="col-12 col-md-8 order-2">
-                    <p class="about-text">I'm passionate about business technology and use of innovation to solve our
-                        societies' pressing challenges today. I'm also interested in engaging under social ventures
-                        tackling UN SDGs. Ideally, I would like to grow in a software engineer, data analyst or product
-                        management role as my best fit. So far, I've been experimenting in fintech, agribusiness, and
-                        natural resource management projects and it's been a load of work but I'm ready for the
-                        challenge to grow. Besides these areas, my hobbies are in exercise, games, some banter and
-                        bonding with people in authentic experiences.
-                    </p>
+
+        <main>
+            <!--======================================= HISTORY=====================================-->
+            <section id="history">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                    <hr class="section-divider">
                 </div>
-                <div class="col-12 col-md-4 order-md-2 py-4 d-flex align-items-center">
-                    <div class="about-image w-100"><img src="./assets/images/illustrations/work_portfolio.png"
-                            alt="Work Illustration" class='img-fluid' /></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row history-phase my-4">
-                    <div class="col-6">
-                        <p><span class="history-year">2019</span>Joined Strathmore University - Computer Science.
+                <div class="row about-me">
+                    <div class="col-12 col-md-9 order-2">
+                        <p class="about-text">I'm a computer science undergraduate at Strathmore University, Kenya, and
+                            I'm thrilled to be on the cusp of graduation! During my academic journey, I've dived into
+                            the dynamic worlds of IT solutions, agribusiness, and non-profits. While I may not have a
+                            vast professional background just yet, my passion for web development remains unfazed. I've
+                            tinkered with HTML, Javascript, PHP, Laravel, and even dabbled in the exciting realm of
+                            blockchain with Solidity. My goal is crystal clear: I aspire to create web solutions that
+                            make a difference. I firmly believe that technology can be a force for good, and I want to
+                            harness its potential to elevate businesses and empower individuals. My diverse experiences,
+                            including a stint in digital marketing, have taught me the value of connecting with
+                            audiences and I can bring a unique blend of talents to the table. I'm seeking roles where I
+                            can collaborate with teams and interact with business technology
                         </p>
                     </div>
-                    <div class="col-6">
-                        <p><span class="history-year">2021</span>Intern @TAU<span>Winner (Team Equators) - Oracle
-                                Academy APEX Hackathon. <span>MediCare Project.</span>
-                                <span>Student Member - GitHub Education, MLH.
-                                </span></p>
-                    </div>
-                    <div class="col-6">
-                        <p><span class="history-year">2022</span>Intern @SoftIQ.<span>2nd runners up (Team Nabo) -
-                                Blockchain Gender Hackathon.</span> <span>Participant - AWS Impact+, HackforEarth.
-                            </span> <span>Water demand forecaster Project.</span> <span>Digital
-                                Marketing Assistant @MGL</span>
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <p><span class="history-year">2023</span>Intern @FundiBots.<span>Volunteer @NDF.</span>
-                            <span>Data Analyst @alx_africa</span>
-                        </p>
+                    <div class="col-12 col-md-3 order-md-2 d-flex align-items-center">
+                        <div class="about-image"><img src="./assets/images/illustrations/work_portfolio.png"
+                                alt="Work Illustration" class='img-fluid' /></div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- ======================================= SERVICES ==================================-->
-        <section id="services">
-            <div class="section-title">
-                <h2>Services Offered</h2>
-                <hr class="section-divider">
-            </div>
-            <div class="container services-frame">
-                <div class="row justify-content-between">
-                    <div class="col-6 col-sm-4 col-md-2 service" hidden>
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/data-analysis.svg"
-                                class="figure-img img-fluid rounded" alt="1">
-                            <figcaption class="figure-caption">Data Analysis</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service">
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/AI.svg" class="figure-img img-fluid rounded"
-                                alt="2">
-                            <figcaption class="figure-caption">AI/ ML</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service">
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/web-devt.svg" class="figure-img img-fluid rounded"
-                                alt="3">
-                            <figcaption class="figure-caption">Web Development</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service" hidden>
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/ui-design.svg" class="figure-img img-fluid rounded"
-                                alt="4">
-                            <figcaption class="figure-caption">UI/ UX Design</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service">
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/blockchain.svg"
-                                class="figure-img img-fluid rounded" alt="8">
-                            <figcaption class="figure-caption">Blockchain Development</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service">
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/robotics.svg" class="figure-img img-fluid rounded"
-                                alt="5">
-                            <figcaption class="figure-caption">IoT</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-6 col-sm-4 col-md-2 service">
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/CRM.svg" class="figure-img img-fluid rounded"
-                                alt="6">
-                            <figcaption class="figure-caption">Salesforce Admin</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-2 service" hidden>
-                        <figure class="figure">
-                            <img src="./assets/images/services icons/proposal.svg" class="figure-img img-fluid rounded"
-                                alt="7">
-                            <figcaption class="figure-caption">Scientific Research</figcaption>
-                        </figure>
+                <!-- ------------- Timeline Tree ---------------- -->
+                <div class="container my-5">
+                    <div class="row history-phase my-4">
+                        <div class="col-6">
+                            <p><span class="history-year">2019</span>Strathmore University - Computer Science.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <p><span class="history-year">2021</span>Programs Intern @TAU<span>Winner (Team Equators) -
+                                    Oracle
+                                    Academy APEX Hackathon. <span>MediCare Project.</span>
+                                    <span>Student Member - GitHub Education, MLH.
+                                    </span></p>
+                        </div>
+                        <div class="col-6">
+                            <p><span class="history-year">2022</span>ERP Intern @SoftIQ Ltd.<span>2nd runners up (Team
+                                    Nabo) -
+                                    Blockchain Gender Hackathon.</span> <span>Participant - AWS Impact+, HackforEarth,
+                                    Twiga Hackathon
+                                </span> <span>Water demand forecaster Project.</span> <span>Digital
+                                    Marketing Assistant @MGL</span>
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <p><span class="history-year">2023</span>Intern @FundiBots.<span>Volunteer @NDF.</span>
+                                <span>Data Analysis @alx_africa</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <div class="loading">
-            <div class="spinner"></div>
-            <span>Under construction...</span>
-        </div>
-        <!-- ========================================= PROJECTS ==================================-->
-        <section id="projects">
-            <div class="section-title">
-                <h2>Past Projects</h2>
-                <hr class="section-divider">
+            <!-- Loading -->
+            <div class="loading">
+                <div class="spinner"></div>
+                <span>Under construction...</span>
             </div>
-            <!-- Splide Carousel -->
 
-            <div class="projects-tile">
-                <div id="main-carousel" class="splide" role="group" aria-label="Thumbnail highlight of work">
-                    <div class="splide__track splide-images">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href="https://jimmykurui.github.io/street-food-kigali/"><img
-                                            src="./assets/images/thumbnails/street_food_kigali.PNG"
-                                            alt="Street Food Kigali"></a>
-                                </div>
-                                <div class="caption"><span class="caption-title">Street Food Kigali</span>: An online
-                                    food marketplace store based on Celo blockchain architecture. With a Celo wallet,
-                                    any shop owner can upload their products and receive payments instantly from hungry
-                                    users (Complete)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href="https://jimmychepkurui.wixsite.com/nabo"><img
-                                            src="./assets/images/thumbnails/nabo4all.PNG" alt="Nabo4All"></a></div>
-                                <div class="caption"><span class="caption-title">Nabo 4 All</span>: Nabo is a
-                                    crowdfunding platform for FGM projects running on Ethereum and tested on Harmony
-                                    network. It is a derivative of the team project from the Gender themed hackathon
-                                    organized by Harmony x Polygon x Binance (Under maintenance)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href="E:\PROJECTS\InstaProject\InstaClone\database"><img
-                                            src="./assets/images/thumbnails/Instagram_Clone.png"
-                                            alt="Instagram Clone"></a></div>
-                                <div class="caption"><span class="caption-title">Instagram Clone</span>: A duplicate of
-                                    the social media platform using Laravel and Vue as a guided project by Victor from
-                                    @FreeCodeGram (Complete)</i></div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href="https://github.com/JimmyKurui/CS_PROJECT1"><img
-                                            src="./assets/images/thumbnails/MediCare.png" alt="MediCare"></a></div>
-                                <div class="caption"><span class="caption-title">MediCare</span>: A scientific research
-                                    project to create a platform to locate pharmaceutical products in Nairobi in
-                                    real-time based on Laravel. It serves pharmacies and consumers as it continuously
-                                    tracks products from a wide user base (Improvements)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a
-                                        href="https://jimmychepkurui.wixsite.com/maikut-group-limited"><img
-                                            src="./assets/images/thumbnails/MGL.PNG" alt="Maikut Group Limited"></a>
-                                </div>
-                                <div class="caption"><span class="caption-title">Maikut Group Limited</span>: An
-                                    agribusiness website built using Wix (CMS) to allow easy collaboration and
-                                    maintenance with company administrators (Ongoing Review)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a
-                                        href="https://www.figma.com/file/6PVbt8eZ9SynZJi756zyNF/Mari-Test?type=design&node-id=0-1&t=lrnNTXUQti1DxW2V-0"><img
-                                            src="./assets/images/thumbnails/MariTest_UI.PNG" alt="MariTest"></a></div>
-                                <div class="caption"><span class="caption-title">Mari Test</span>: A UI/UX design file
-                                    for a remote malaria tester that enables quick service delivery for under-supported
-                                    health infrastructure in developing countries with developing (To Be Launched)
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href=""><img src="./assets/images/thumbnails/"
-                                            alt="Ngenge Development Foundation"></a></div>
-                                <div class="caption"><span class="caption-title">Ngenge Development Foundation</span>:
-                                    Official site for a community-based non-profit that highlights their journey,
-                                    involvement, progress and prospects. It is built on Wordpress (Ongoing)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a
-                                        href="https://github.com/JimmyKurui/nairobi-water-demand-forecast-app"><img
-                                            src="./assets/images/thumbnails/Water_Demand_Nairobi_UI.PNG"
-                                            alt="Water Usage Forecaster - Nairobi"></a></div>
-                                <div class="caption"><span class="caption-title"
-                                        style="color: var(--primary-color);">Water Demand Forecaster</span>: A novel
-                                    scientific research project to predict short-term water demand in Nairobi County. It
-                                    incorparates various technologies like GIS, Django and uses an Artficial Neural
-                                    Networks model (Ongoing)</div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="screenshot"><a href=""><img src="./assets/images/thumbnails/"
-                                            alt="AcademiChain🔗"></a></div>
-                                <div class="caption"><span class="caption-title">AcademiChain</span>: A lightweight AMS
-                                    based on Celo blockchain to store student records (grades and transcripts) and share
-                                    to 3rd parties ensuring easy verifiability and transparency (Ongoing)</div>
-                            </li>
-                        </ul>
+            <!-- ======================================= SERVICES ==================================-->
+            <section id="services">
+                <div class="section-title">
+                    <h2>Services</h2>
+                    <hr class="section-divider">
+                </div>
+                <div class="container services-frame">
+                    <div class="row justify-content-between">
+                        <div class="col-6 col-sm-4 col-md-2 service" hidden>
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/data-analysis.svg"
+                                    class="figure-img img-fluid rounded" alt="1">
+                                <figcaption class="figure-caption">Data Analysis</figcaption>
+                            </figure>
+                        </div>
+                        <!-- Web Development -->
+                        <div class="col-6 col-sm-4 col-md-2 service">
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/web-devt.svg"
+                                    class="figure-img img-fluid rounded" alt="3">
+                                <figcaption class="figure-caption">Web Development</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-2 service" hidden>
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/ui-design.svg"
+                                    class="figure-img img-fluid rounded" alt="4">
+                                <figcaption class="figure-caption">UI/ UX Design</figcaption>
+                            </figure>
+                        </div>
+                        <!-- Blockchain Development -->
+                        <div class="col-6 col-sm-4 col-md-2 service">
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/blockchain.svg"
+                                    class="figure-img img-fluid rounded" alt="8">
+                                <figcaption class="figure-caption">Blockchain Development</figcaption>
+                            </figure>
+                        </div>
+                        <!-- AI/ML -->
+                        <div class="col-6 col-sm-4 col-md-2 service">
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/AI.svg" class="figure-img img-fluid rounded"
+                                    alt="2">
+                                <figcaption class="figure-caption">AI/ ML</figcaption>
+                            </figure>
+                        </div>
+                        <!-- IoT -->
+                        <div class="col-6 col-sm-4 col-md-2 service">
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/robotics.svg"
+                                    class="figure-img img-fluid rounded" alt="5">
+                                <figcaption class="figure-caption">IoT</figcaption>
+                            </figure>
+                        </div>
+                        <!-- Salesforce Admin -->
+                        <div class="col-6 col-sm-4 col-md-2 service">
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/CRM.svg" class="figure-img img-fluid rounded"
+                                    alt="6">
+                                <figcaption class="figure-caption">Salesforce Admin</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-2 service" hidden>
+                            <figure class="figure">
+                                <img src="./assets/images/services icons/proposal.svg"
+                                    class="figure-img img-fluid rounded" alt="7">
+                                <figcaption class="figure-caption">Scientific Research</figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div id="thumbnail-carousel" class="splide" role="group" aria-label="Thumbnails of work">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/street_food_kigali.PNG"
-                                    alt="Street Food Kigali"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/nabo4all.PNG" alt="Nabo4All">
-                            </li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/Instagram_Clone.png"
-                                    alt="Instagram Clone"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/MediCare.png"
-                                    alt="Pharmaecutical Products Locater"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/MGL.PNG"
-                                    alt="Maikut Group Limited"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/MariTest_UI.PNG"
-                                    alt="MariTest"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/"
-                                    alt="Ngenge Development Foundation"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/Water_Demand_Nairobi_UI.PNG"
-                                    alt="Water Usage Forecaster - Nairobi"></li>
-                            <li class="splide__slide"><img src="./assets/images/thumbnails/" alt="AcademiChain🔗"></li>
-                        </ul>
+            <!-- ========================================= PROJECTS ==================================-->
+            <section id="projects">
+                <div class="section-title">
+                    <h2>Past Projects</h2>
+                    <hr class="section-divider">
+                </div>
+                <!-- Splide Carousel -->
+
+                <div class="projects-tile">
+                    <div id="main-carousel" class="splide" role="group" aria-label="Thumbnail highlight of work">
+                        <div class="splide__track splide-images">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a
+                                            href="https://jimmykurui.github.io/street-food-kigali/"><img
+                                                src="./assets/images/thumbnails/street_food_kigali.PNG"
+                                                alt="Street Food Kigali"></a>
+                                    </div>
+                                    <div class="caption"><span class="caption-title">Street Food Kigali</span>: A web
+                                        app
+                                        food marketplace based on Celo 101 blockchain template. With a Celo wallet,
+                                        any shop owner can upload their products and receive payments instantly from
+                                        hungry
+                                        clients at a cheap cost (Complete)</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a href="E:\PROJECTS\InstaProject\InstaClone\database"><img
+                                                src="./assets/images/thumbnails/Instagram_Clone.png"
+                                                alt="Instagram Clone"></a></div>
+                                    <div class="caption"><span class="caption-title">Instagram Clone</span>: A duplicate
+                                        of
+                                        the social media platform using Laravel and Vue as a guided project by Victor
+                                        from
+                                        @FreeCodeGram. It features CRUD for accounts, profiles and posts. Following/
+                                        followers and granular permissions for users</i></div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a href="https://github.com/JimmyKurui/CS_PROJECT1"><img
+                                                src="./assets/images/thumbnails/MediCare.png" alt="MediCare"></a></div>
+                                    <div class="caption"><span class="caption-title">MediCare</span>: A university
+                                        scientific research
+                                        project to create a platform to locate pharmaceutical products in Nairobi in
+                                        real-time based on Laravel. It serves pharmacies and consumers as it
+                                        continuously
+                                        tracks products from a wide user base. Integrations with pharmacy inventory for
+                                        future revision.</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a
+                                            href="https://github.com/JimmyKurui/nairobi-water-demand-forecast-app"><img
+                                                src="./assets/images/thumbnails/Water_Demand_Nairobi_UI.PNG"
+                                                alt="Water Usage Forecaster - Nairobi"></a></div>
+                                    <div class="caption"><span class="caption-title"
+                                            style="color: var(--primary-color);">Water Demand Forecaster</span>: A novel
+                                        scientific research project to predict short-term water demand in Nairobi
+                                        County. It is based on Python and
+                                        incorparates GIS, Artficial Neural
+                                        Networks model and hosted on a Django run environment. In collaboration with <a
+                                            href="https://scholar.google.com/citations?user=DE4gTQYAAAAJ&hl=en">Nyamai
+                                            Mutono</a> (Under revision)</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a href=""><img src="./assets/images/thumbnails/"
+                                                alt="Ngenge Development Foundation"></a></div>
+                                    <div class="caption"><span class="caption-title">Ngenge Development
+                                            Foundation</span>:
+                                        Website for a community-based non-profit that highlights their journey,
+                                        involvement, progress and prospects. It is being built on Wordpress (Ongoing)
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a href="https://jimmychepkurui.wixsite.com/nabo"><img
+                                                src="./assets/images/thumbnails/nabo4all.PNG" alt="Nabo4All"></a></div>
+                                    <div class="caption"><span class="caption-title">Nabo 4 All</span>: Front-end built
+                                        on Wix (CMS) for Nabo - A
+                                        crowdfunding platform for FGM projects running on Ethereum and tested on Harmony
+                                        network. It is a derivative of the team project from the Gender themed hackathon
+                                        organized by Harmony x Polygon x Binance (Under maintenance)</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a
+                                            href="https://jimmychepkurui.wixsite.com/maikut-group-limited"><img
+                                                src="./assets/images/thumbnails/MGL.PNG" alt="Maikut Group Limited"></a>
+                                    </div>
+                                    <div class="caption"><span class="caption-title">Maikut Group Limited</span>: An
+                                        agribusiness website built using Wix (CMS) to allow easy collaboration and
+                                        maintenance with company administrators for non-technical members</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a href=""><img src="./assets/images/thumbnails/"
+                                                alt="AcademiChain🔗"></a></div>
+                                    <div class="caption"><span class="caption-title">AcademiChain</span>: A lightweight
+                                        AMS
+                                        based on Ethereum to store student records (grades and transcripts) and allow
+                                        them to share
+                                        to 3rd parties ensuring easy verifiability, transparency in grading systems and
+                                        rewards awarding (Ongoing)</div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="screenshot"><a
+                                            href="https://www.figma.com/file/6PVbt8eZ9SynZJi756zyNF/Mari-Test?type=design&node-id=0-1&t=lrnNTXUQti1DxW2V-0"><img
+                                                src="./assets/images/thumbnails/MariTest_UI.PNG" alt="MariTest"></a>
+                                    </div>
+                                    <div class="caption"><span class="caption-title">Mari Test</span>: A UI/UX design
+                                        using Figma
+                                        for a remote malaria tester product's page. It showcases settings, integrations,
+                                        profile and result tests on a dashboard (Ongoing)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="thumbnail-carousel" class="splide" role="group" aria-label="Thumbnails of work">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/street_food_kigali.PNG"
+                                        alt="Street Food Kigali"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/Instagram_Clone.png"
+                                        alt="Instagram Clone"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/MediCare.png"
+                                        alt="Pharmaecutical Products Locater"></li>
+                                <li class="splide__slide"><img
+                                        src="./assets/images/thumbnails/Water_Demand_Nairobi_UI.PNG"
+                                        alt="Water Usage Forecaster - Nairobi"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/"
+                                        alt="Ngenge Development Foundation"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/nabo4all.PNG"
+                                    alt="Nabo4All"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/MGL.PNG"
+                                        alt="Maikut Group Limited"></li>
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/" alt="AcademiChain🔗">
+                                <li class="splide__slide"><img src="./assets/images/thumbnails/MariTest_UI.PNG"
+                                        alt="MariTest"></li>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- =================================== ADDITIONAL =========================== -->
+            <!-- Prospects -->
+            <section id="extras">
+                <div class="red"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-menu">
+                <p><a href="" onclick="alert('Contact on email') ">Request for Certificates</a></p>
+                <p><a href="">Collaboration on Open source</a></p>
             </div>
-        </section>
+            <div class="text-right order-md-3" id="contact">
+                <address>
+                    <a href="mailto:jimmykurui@outlook.com">Email<i class="fas fa-envelope"></i></a> <br>
+                    <a href="tel:+254758564445">Call<i class="fas fa-phone"></i></a> <br> <!-- Region Checker -->
+                </address>
+            </div>
+            <div class="social-links">
+                <span><a href="https://twitter.com/MkrJmm1" target="_blank" rel="noopener noreferrer" title="Twitter">
+                        <i class="fab fa-twitter fa-1x"></i>
+                    </a>
+                </span>
+                <span><a href="https://github.com/JimmyKurui" target="_blank" rel="noopener noreferrer" title="Github">
+                        <i class="fab fa-github fa-1x"></i>
+                    </a>
+                </span>
+                <span><a href="https://www.kaggle.com/jamalchepkurui" target="_blank" rel="noopener noreferrer"
+                        title="Kaggle">
+                        <i class="fab fa-kaggle fa-1x"></i>
+                    </a>
+                </span>
+                <span><a href="https://kuruiblog.hashnode.dev/" target="_blank" rel="noopener noreferrer"
+                        title="HashNode">
+                        <i class="fab fa-hashnode fa-1x"></i>
+                    </a>
+                </span>
+                <span><a href="https://trailblazer.me/id/jchepkurui" target="_blank" rel="noopener noreferrer"
+                        title="Salesforce Trailhead">
+                        <i class="fa-brands fa-salesforce fa-1x"></i>
+                    </a>
+                </span>
+                <div class="footnote"><kbd>Made By: Jimmy Chepkurui</kbd></div>
+            </div>
+        </footer>
 
-        <!-- =================================== ADDITIONAL =========================== -->
-        <!-- Prospects -->
-        <section id="extras">
-            <div class="red"></div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-menu">
-            <p><a href="" onclick="alert('Contact on email') ">Request for Certificates</a></p>
-            <p><a href="">Collaboration on Open source</a></p>
-        </div>
-        <div class="text-right order-md-3" id="contact">
-            <address>
-                <a href="mailto:jimmykurui@outlook.com">Email<i class="fas fa-envelope"></i></a> <br>
-                <a href="tel:+254758564445">Call<i class="fas fa-phone"></i></a> <br> <!-- Region Checker -->
-            </address>
-        </div>
-        <div class="social-links">
-            <span><a href="https://twitter.com/MkrJmm1" target="_blank" rel="noopener noreferrer" title="Twitter">
-                    <i class="fab fa-twitter fa-1x"></i>
-                </a>
-            </span>
-            <span><a href="https://github.com/JimmyKurui" target="_blank" rel="noopener noreferrer" title="Github">
-                    <i class="fab fa-github fa-1x"></i>
-                </a>
-            </span>
-            <span><a href="https://www.kaggle.com/jamalchepkurui" target="_blank" rel="noopener noreferrer"
-                    title="Kaggle">
-                    <i class="fab fa-kaggle fa-1x"></i>
-                </a>
-            </span>
-            <span><a href="https://kuruiblog.hashnode.dev/" target="_blank" rel="noopener noreferrer" title="HashNode">
-                    <i class="fab fa-hashnode fa-1x"></i>
-                </a>
-            </span>
-            <span><a href="https://trailblazer.me/id/jchepkurui" target="_blank" rel="noopener noreferrer"
-                    title="Salesforce Trailhead">
-                    <i class="fa-brands fa-salesforce fa-1x"></i>
-                </a>
-            </span>
-            <div class="footnote"><kbd>Made By: Jimmy Chepkurui</kbd></div>
-        </div>
-    </footer>
-
-    <script src="./javascript/index.js"></script>
+        <script src="./javascript/index.js"></script>
 </body>
 
 </html>
