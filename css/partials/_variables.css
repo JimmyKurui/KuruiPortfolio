@@ -1,0 +1,18 @@
+:root {
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --theme-color-1: #170541;
+    --theme-color-2: #7209b7;
+    --theme-color-3: #aeb4bd;
+    --theme-color-4: sandybrown;
+    --primary-color: #2ec4b6;
+    --secondary-color: #f8f9fa;
+}
+
+body {
+    font-family: "Nunito", Tahoma;
+    background-color: var(--theme-color-1);
+    color: white;
+}
