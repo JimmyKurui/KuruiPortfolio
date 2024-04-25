@@ -309,7 +309,7 @@
             <!-- =================================== ADDITIONAL =========================== -->
             <!-- Prospects -->
             <section id="contacts">
-                <form id="form" onsubmit="trackForm(event)">
+                <!-- <form id="form" onsubmit="trackForm(event)">
                     <div class="form-row">
                       <div class="col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
@@ -324,32 +324,18 @@
                     <div class="form-group">
                       <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
                     </div>
-                    <!-- recaptcha field -->
                     <div class="g-recaptcha" data-sitekey="6Lel49slAAAAAHo0CHM2GPOFlv7YdOTXYwm_xh89"></div>
           
                     <div class="text-center"><button type="submit">Send Message</button></div>
-                  </form>
-                  <script>
-                    function trackForm(event) {
-    event.preventDefault();
-    const new_contact = {
-      "First name": $('#name').val(), 
-      "Last name": '', 
-      "Email": $('#email').val(), 
-      "Alternate contact number": $('#phone').val(), 
-    };
-    const identifier = $('#email').val();
-    try {
-      fwcrm.identify(identifier, new_contact);
-      console.log('successful')
-    } catch (error) {
-      console.log(error);
-    } finally {
-        $('#form').off('submit').submit();
-    }
-}
-                  </script>
-            </section>
+                  </form> -->
+<script src='https://jasco-org.myfreshworks.com/crm/sales/web_forms/585e81f607be327fa19429213f22db963ef71215ea0eadfdd4a9a170844198c6/form.js' crossorigin='anonymous' id='fs_585e81f607be327fa19429213f22db963ef71215ea0eadfdd4a9a170844198c6'></script>
+    <div class="d-flex mr-5">
+        <div class="col col-md-3"><a href="/media/sample.pdf" target="_blank" rel="noopener noreferrer">A sample pdf</a></div>
+        <div class="col col-md-3"><a href="/media/test.pdf" target="_blank" rel="noopener noreferrer">A Test PDF</a></div>
+        <div class="col col-md-3"><a href="/media/different.pdf" rel="noopener noreferrer">Another Pdf</a></div>
+        <div class="col col-md-3 bg-white"><a href="/media/different.png" rel="noopener noreferrer">Not a PDF</a></div>
+    </div>        
+    </section>
         </main>
 
         <footer class="footer">
@@ -398,7 +384,6 @@
     <script>
         $('a, button').on('click', function(event) {
         event.preventDefault();
-        event.stopImmediatePropagation();
 
         var url = $(this).attr('href') || $(this).data('href');
 
@@ -414,6 +399,7 @@
                 "return date": "2019-12-30"
             });
         } 
+        event.off('click').click();
       });
     </script>
 </body>
