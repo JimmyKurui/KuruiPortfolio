@@ -18,27 +18,27 @@
     "services": [
         {
             "service": "Web Development",
-            "icon": "./assets/images/services_icons/web-devt.svg",
+            "icon": "./assets/images/services/web-devt.svg",
             "description": ""
         },
         {
             "service": "Blockchain DApp",
-            "icon": "./assets/images/services_icons/blockchain.svg",
+            "icon": "./assets/images/services/blockchain.svg",
             "description": ""
         },
         {
             "service": "Internet Of Things (IoT)",
-            "icon": "./assets/images/services_icons/robotics.svg",
+            "icon": "./assets/images/services/robotics.svg",
             "description": ""
         },
         {
             "service": "Data Analysis/ ML",
-            "icon": "./assets/images/services_icons/data-analysis.svg",
+            "icon": "./assets/images/services/data-analysis.svg",
             "description": ""
         },
         {
             "service": "Azure",
-            "icon": "./assets/images/services_icons/robotics.svg",
+            "icon": "./assets/images/services/robotics.svg",
             "description": ""
         }
     ],
