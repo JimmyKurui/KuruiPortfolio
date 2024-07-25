@@ -23,11 +23,9 @@
 
 <body>
     <!-- ==================================== HERO ========================================== -->
-    <header>
         <!-- ------------------ NAVIGATION ------------------ -->
-        <section id="hero">
-            <!------------ Img (SVG) / Summary / Call to Action ----->
-            <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
                 <a class="navbar-brand" href="#hero">CJ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,12 +46,16 @@
                             <a class="nav-link" href="#extras">extras</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                     <!-- <span class="navbar-text">Navbar text with an inline element</span> -->
                 </div>
             </nav>
+        </header>
+        <section id="hero">
+            <!------------ Img (SVG) / Summary / Call to Action ----->
+           
             <!-- Image -->
             <div class="hero-image">
                 <h1 class="hero-image-caption">Hey, I'm Jimmy</h1>
@@ -94,55 +96,59 @@
                     <h2>About Me</h2>
                     <hr class="section-divider">
                 </div>
-                <div class="row about-me">
-                    <div class="col-12 col-md-9 order-2">
-                        <p class="about-text">I've had a diverse range of work experiences from IT solutions,
-                            agribusiness, and non-profits from past volunteering and internships.
-                            My passion for web development remains unfazed where I've tinkered with the <em>MERN</em>
-                            and <em>LAMP</em> tech stack, and
-                            even the exciting realm of blockchain with Solidity. My goal is crystal
-                            clear: <strong>create web solutions that
-                                are give you long-term value</strong>. As a huge tech + business fan, I'm always trying
-                            to learn more where I've grasped CRM (Salesforce) and ERP (Odoo) used in industries too.
+                <div class="row about-me p-2 px-md-5">
+                    <div class="col-12 col-md-8 order-2">
+                        <p class="about-text">I have work experience across IT solutions, finance
+                            agribusiness, and non-profits as a software developer and IT support technician.
+                            My goal is crystal
+                            clear: <strong>create software solutions that
+                                give you long-term value and are sustainable</strong>. As a huge tech + business fan, I continuously
+                            learn where I am highly familiar with CRM (Salesforce) and ERP (Odoo) used in industries.
                             <span class="d-block pt-2">
-                                👨‍🌾 Besides this; I love community engagement
-                                in my club roles as a technical lead, exercising, football, reading books and making
+                                👨‍🌾 I also do community engagement
+                                through club roles as a technical lead, exercising, reading books and making
                                 some chapati</span>
                         </p>
                     </div>
-                    <div class="col-12 col-md-3 order-md-2 d-flex align-items-center">
-                        <div class="about-image"><img src="./assets/images/illustrations/work_portfolio.png"
+                    <div class="col-12 col-md-4 order-md-2 p-5 px-md-2 py-md-0 d-flex align-items-center">
+                        <div class="about-image p-3"><img src="./assets/images/illustrations/work_portfolio.png"
                                 alt="Work Illustration" class='img-fluid' /></div>
                     </div>
                 </div>
                 <!-- ------------- Timeline Tree ---------------- -->
                 <div class="container my-5">
-                    <div class="row history-phase my-4">
-                        <div class="col-6">
+                    <div class="row history-phase my-4 flex-wrap">
+                        <div class="col-12 col-md-6">
                             <p><span class="history-year">2019</span>Strathmore University - Computer Science
                             </p>
                         </div>
-                        <div class="col-6">
-                            <p><span class="history-year">2021</span>Programs Intern @TAU<span>Winner (Team Equators) -
-                                    Oracle
-                                    Academy APEX Hackathon. <span>MediCare Project.</span>
-                                    <span>Student Member - GitHub Education, MLH.
-                                    </span></p>
-                        </div>
-                        <div class="col-6">
-                            <p><span class="history-year">2022</span>ERP Intern @SoftIQ Ltd.<span>2nd runners up (Team
-                                    Nabo) -
-                                    Blockchain Gender Hackathon.</span> <span>Participant - AWS Impact+, HackforEarth,
-                                    Twiga Hackathon
-                                </span> <span>Water demand forecaster Project.</span> <span>Digital
-                                    Marketing Assistant @MGL</span>
+                        <div class="col-12 col-md-6">
+                            <p><span class="history-year">2021</span>
+                                <span>Programs & Operations Volunteer @TAU</span><br>
+                                <span><mark>Winner (Team Equators)</mark> - Oracle Academy APEX Hackathon</span> 
                             </p>
                         </div>
-                        <div class="col-6">
-                            <p><span class="history-year">2023</span>Intern @FundiBots.<span>Volunteer @NDF.</span>
-                                <span>Data Analysis @alx_africa</span>
+                        <div class="col-12 col-md-6">
+                            <p><span class="history-year">2022</span>
+                                <span>ERP Intern @SoftIQ Ltd.</span>
+                                <span><mark>2nd runners up (TeamNabo)</mark> - Blockchain Gender Hackathon</span><br>
+                                <span><mark>Participant:</mark> AWS Impact+, HackforEarth, Twiga Hackathon</span><br>
                             </p>
                         </div>
+                        <div class="col-12 col-md-6">
+                            <p><span class="history-year">2023</span>
+                                <span>Alumni @FundiBots</span><br>
+                                <span>Data Analysis @alx_africa</span><br>
+                                <span>Software Engineer Intern @iLab Africa</span>
+                            </p>
+                        </div>
+                        <!-- <div class="col-12 col-md-6">
+                            <p>
+                                <span class="history-year">2024</span>
+                                <span>Software Engineer Intern @iLab Africa</span>
+                                <span>Software Engineer Intern @BCK Kenya</span>
+                            </p>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -150,7 +156,10 @@
             <!-- Loading -->
             <div class="loading">
                 <div class="spinner"></div>
-                <span>Under construction...</span>
+                <div>
+                    <span>Under construction...</span><br>
+                    <small class="text-secondary">Check it out on desktop for the best experience!</small>
+                </div>
             </div>
 
             <!-- ======================================= SERVICES ==================================-->

@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const projectTile = createNewElement('li', ['splide__slide'])
 
             const tileScreenshot = createNewElement('div', ['screenshot'])
-            const tileLink = createNewElement('a', [], { href: x.embed_link })
+            const tileLink = createNewElement('a', [], { href: x.embed_link, target: '_blank' })
             tileLink.appendChild(
                 createNewElement('img', [], { src: x.thumbnail, alt: x.title + ': ' })
             )
             const thumbnailTile = projectTile.cloneNode()
-            thumbnailTile.appendChild(tileLink.cloneNode(true))
+            thumbnailTile.appendChild(createNewElement('img', [], { src: x.thumbnail, alt: x.title + ': ' }))
             tileScreenshot.appendChild(tileLink)
 
             const tileCaption = createNewElement('div', ['caption'])
@@ -91,9 +91,4 @@ async function fetchData() {
         console.error('Error fetching data:', error);
         return null; // Return null or handle the error as needed
     }
-}
-
-
-window.onload = () => {
-    alert("This is a beta site version. Check it out on desktop for the best experience!")
 }

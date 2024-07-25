@@ -44,16 +44,28 @@
     ],
     "projects": [
         {
-            "embed_link": "https://github.com/JimmyKurui/CS_PROJECT1",
-            "thumbnail": "./assets/images/thumbnails/MediCare.png",
-            "title": "MediCare",
-            "caption": "A university scientific research project to create a platform to locate pharmaceutical products in Nairobi in real-time based on Laravel. It serves pharmacies and consumers as it continuously tracks products from a wide user base. Integrations with pharmacy inventory for future revision."
+            "embed_link": "https://www.dentist.ug",
+            "thumbnail": "./assets/images/thumbnails/sinai_dental.png",
+            "title": "Sinai Dental Practice",
+            "caption": "Client site revamp for a dental clinic with 10 years of experience"
+        },
+        {
+            "embed_link": "",
+            "thumbnail": "./assets/images/thumbnails/",
+            "title": "Banking help desk",
+            "caption": "An inquiry and customer support web app that uses priority ticketing metrics for efficient resolution. It is ideal for high traffic environments and the demo includes features like canned messages, priority queue, agent distribution and a chat service"
         },
         {
             "embed_link": "https://jimmykurui.github.io/street-food-kigali",
             "thumbnail": "./assets/images/thumbnails/street_food_kigali.PNG",
             "title": "Street Food Kigali",
-            "caption": "A web app food marketplace based on Celo 101 blockchain template.With a Celo wallet, any shop owner can upload their products and receive payments instantly from hungry clients at a cheap cost(Complete)"
+            "caption": "A web app food marketplace built on Celo 101 dApp boilerplate.With a Celo wallet, any shop owner can upload their products and receive payments instantly from hungry clients at a cheap cost(Complete)"
+        },
+        {
+            "embed_link": "https://github.com/JimmyKurui/CS_PROJECT1",
+            "thumbnail": "./assets/images/thumbnails/MediCare.png",
+            "title": "MediCare",
+            "caption": "A university scientific research project to create a platform to locate pharmaceutical products in Nairobi in real-time based on Laravel. It serves pharmacies and consumers as it continuously tracks products from a wide user base. Integrations with pharmacy inventory for future revision."
         },
         {
             "embed_link": "https://github.com/JimmyKurui/nairobi-water-demand-forecast-app",
@@ -68,7 +80,7 @@
             "caption": ": Front-end built on Wix (CMS) for Nabo - A crowdfunding platform for FGM projects running on Ethereum and tested on Harmony network. It is a derivative of the team project from the Gender themed hackathon organized by Harmony x Polygon x Binance (Under maintenance)"
         },
         {
-            "embed_link": "https://jimmychepkurui.wixsite.com/nabo",
+            "embed_link": "",
             "thumbnail": "./assets/images/thumbnails/Instagram_Clone.png",
             "title": "Instagram Clone",
             "caption": ": A duplicate of the social media platform using Laravel and Vue as a guided project by Victor from @FreeCodeGram. It features CRUD for accounts, profiles and posts. Following followers and granular permissions for users"

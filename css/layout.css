@@ -79,12 +79,10 @@
 
 #history .about-me {
     background-color: var(--theme-color-3);
-    margin: 0 15%;
     border-radius: 10px;
-    box-shadow: 10px 30px 30px 10px rgba(0, 0, 0, .3) ;
+    box-shadow: 10px 30px 30px 10px rgba(0, 0, 0, .3);
 }
 #history .about-text {
-    padding: 1rem 0 1rem 3rem;
     margin: 0;
     text-align: justify;
     line-height: 28px;
@@ -92,39 +90,20 @@
 }
 
 #history .about-image {
-    padding: 0.5rem 0;
     background-color: var(--secondary-color);
     text-align: center;
-    clip-path: inset(0% 50px);
 }
 
 #history .about-image img {
     background-color: var(--primary-color);
 }
 
-#history .history-phase .col-6 { 
+#history .history-phase .col-12 { 
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(244, 164, 96, .6);
 }
 
-#history .history-phase .col-6:nth-child(odd) {
-    border-right: 2px solid sandybrown;
-    border-spacing: 3px;
-}
-#history .history-phase .col-6:nth-child(odd)::before, #history .history-phase.col-6:nth-child(odd)::after {
-    content: "";
-    width: 2px;
-    height: 2px;
-    border-right: 2px solid sandybrown;
-}
-
-#history .history-phase .col-6:nth-child(4n+1) {
-    border-bottom: 1px solid sandybrown;
-}
-
-#history .history-phase .col-6:nth-child(4n) {
-    border-bottom: 1px solid sandybrown;
-}
 
 #history .history-year {
     margin: 0 20px;
@@ -133,7 +112,7 @@
     color: sandybrown;
 }
 
-#history .col-6 p *, span[class~="history-year"] {
+#history .col-md-6 p *, span[class~="history-year"] {
     display: inline-block;
 }
 
@@ -244,5 +223,22 @@ div.footnote {
     #thumbnail-carousel {
         width:80%;
         margin: 0 auto;
+    }
+    #history .row.about-me {
+        margin: 0 20%;
+    }
+    #history .history-phase .col-md-6:nth-child(odd) {
+        border-right: 2rem solid sandybrown;
+        border-spacing: 3px;
+    }
+    
+    #history .history-phase .col-md-6:nth-child(4n+1), #history .history-phase .col-md-6:nth-child(4n) {
+        border-bottom: 3px solid sandybrown;
+    }
+    #history .history-phase .col-md-6:nth-child(4n+1){
+        border-end-start-radius: 2rem;
+    }
+    #history .history-phase .col-md-6:nth-child(4n) {
+        border-end-end-radius: 2rem;
     }
 }
